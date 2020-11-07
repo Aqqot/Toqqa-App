@@ -7,3 +7,5 @@ The change logs for the repository
                   added settings.dart file containing a temporary settings page and language localization
 
 (Athena)11/7/2020-5.04PM: Created toqqa-screens folder in main, contains all currently exported screens from adobe xd [SPLASH -> REGO6]
+
+(Athena)11/7/2020-5.45PM: Added HOMEv21 to 'toqqa-screens', might have errors due to the work around, currentlu unable to export pass the registration pages. Work aorund -> copy paste screen to a new doc and then exporting

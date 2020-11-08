@@ -7,9 +7,9 @@
 
 [27]Folder "Plan": CREATE BUSINESS PLAN ONBOARDING 1, // ONBOARDING 2, // ONBOARDING 3, CREATE BUSINESS PLAN 1 TO 16-1, GOALS 0 TO 3, NEW GOAL 0 TO 4
 
-[9]Folder "Earn": INVOICE HOME, INVOICE SEND, //2, QR, AD CAMPAIGN 0 TO 5, 
+[10]Folder "Earn": INVOICE HOME, INVOICE SEND, //2, QR, AD CAMPAIGN 0 TO 5, 
 
-[3]Folder "Knowledge": LEARN, LEARN-1, LEARN MENU
+[3]Folder "Learn": LEARN, LEARN-1, LEARN MENU
 
 [3]Folder "MyBiz": MY BUSINESS, //-1, //-2
 (Similar screens, refer to adobe screens for reference)

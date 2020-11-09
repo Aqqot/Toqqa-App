@@ -11,3 +11,5 @@ The change logs for the repository
 (Athena)11/7/2020-5.45PM: Added HOMEv21 to 'toqqa-screens', might have errors due to the work around, currentlu unable to export pass the registration pages. Work aorund -> copy paste screen to a new doc and then exporting
 
 (Athena)11/8/202-5.47PM: Complete exporting and uploading of all screens. Refer to the map doc in Toqqa-Screens.
+
+(Athena)11/9/2020-2.42PM: Updated pubspec.yaml with the following dependencies:- google_fonts, adobe_xd, intl_translation, flutter_cupertino_localization, shared_preferences, list_tile_switch

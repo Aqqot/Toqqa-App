@@ -13,3 +13,5 @@ The change logs for the repository
 (Athena)11/8/202-5.47PM: Complete exporting and uploading of all screens. Refer to the map doc in Toqqa-Screens.
 
 (Athena)11/9/2020-2.42PM: Updated pubspec.yaml with the following dependencies:- google_fonts, adobe_xd, intl_translation, flutter_cupertino_localization, shared_preferences, list_tile_switch
+
+(Athena)11/12/2020-2.10PM: Updated pubspec.yaml with the dots_indicator dependency, ^1.2.0. Added the following files into lib folder: IntroPage.dart, SplashScreen.dart, edited the main.dart.

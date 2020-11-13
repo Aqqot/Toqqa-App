@@ -1,5 +1,7 @@
 The change logs for the repository
 
+(Simon)11/13/2020-9.59AM: Updated pubspec.yaml file; added 'percent_indicator' under dependencies. Added goals.dart file/page in lib folder.
+
 (Athena)11/4/2020-11.38AM: eated repository in "master" branch
 
 (Athena)11/5/2020-3.50PM: created l10n folder in lib folder, added arb and dart files,

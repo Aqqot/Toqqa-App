@@ -19,3 +19,5 @@ The change logs for the repository
 (Athena)11/12/2020-2.10PM: Updated pubspec.yaml with the dots_indicator dependency, ^1.2.0. Added the following files into lib folder: IntroPage.dart, SplashScreen.dart, edited the main.dart.
 
 (Athena)11/13/2020-4.17PM: Added OnBoardPlan.dart to lib folder. OnBoardPlan are the onboarding screens to BusinessPlan screen
+
+(Athena)11/17/2020-4:51PM: Added SignIn.dart to lib folder. 

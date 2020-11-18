@@ -1,6 +1,8 @@
 The change logs for the repository
 
-(Simon)11/13/2020-9.59AM: Updated pubspec.yaml file; added 'percent_indicator' under dependencies. Added goals.dart file/page in lib folder.
+(Simon)11/18/2020-11:10AM: Added tabbar.dart(CREATE CAMPAIGN Prototype) and invoiceHome.dart files/dart into 'lib' folder. invoiceHome.dart is 95% complete; the container which requires text underneath the circle is empty.
+
+(Simon)11/13/2020-9.59AM: Updated pubspec.yaml file; added 'percent_indicator' under dependencies. Added goals.dart file/page into 'lib' folder.
 
 (Athena)11/4/2020-11.38AM: eated repository in "master" branch
 

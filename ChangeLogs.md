@@ -1,6 +1,7 @@
 The change logs for the repository
 
 (Athena)11/22/2929-5.31PM: Added SignUp.dart into 'lib' folder. Contains all sign up pages. Yet to do popup for user agreement.
+                           Added pin_code_text_field and percent_indicator dependencies to pubspec.yaml
 
 (Simon)11/18/2020-11:10AM: Added tabbar.dart(CREATE CAMPAIGN Prototype) and invoiceHome.dart files/dart into 'lib' folder. invoiceHome.dart is 95% complete; the container which requires text underneath the circle is empty.
 

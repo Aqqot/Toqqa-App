@@ -1,5 +1,7 @@
 The change logs for the repository
 
+(Athena)11/23/2020-6.07PM: Updated IntroPage.dart and OnBoardPLan.dart with new code. 
+
 (Athena)11/22/2929-5.31PM: Added SignUp.dart into 'lib' folder. Contains all sign up pages. Yet to do popup for user agreement.
                            Added pin_code_text_field and percent_indicator dependencies to pubspec.yaml
 

@@ -38,7 +38,7 @@ dependencies:
   dots_indicator: ^1.2.0
   percent_indicator: ^2.1.8
   pin_code_text_field: ^1.7.1
-  
+  intl: ^0.16.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:pin_code_text_field/pin_code_text_field.dart';
+import 'package:intl/intl.dart';
+//added intl dependency
 
 class SignUp extends StatefulWidget {
   @override
@@ -699,6 +701,8 @@ class DatePicker extends StatefulWidget {
 
 class _DatePickerState extends State<DatePicker> {
   DateTime selectedDate = DateTime.now();
+  //Edited: added a text field editing controller so that the selected dates can be displayed
+  TextEditingController _textEditingController = TextEditingController();
 
   _selectDate(BuildContext context) async {
     final DateTime picked = await showDatePicker(
@@ -718,13 +722,21 @@ class _DatePickerState extends State<DatePicker> {
         );
       },
     );
-    //make sure that the user does not leave the date picker empty or at the default date
-    /*
-      if (picked != null && picked != selectedDate){
+    /**make sure that the user does not leave the date picker empty or at the default date
+     * currently set to show only the selected date only
+    */
+      if (picked != null && picked != selectedDate
+      ){
         setState(() {
-          selectedDate = picked;   
+          selectedDate = picked;
+          /**Edited 24th Nov 2020, will format the date selected and display it in the text field */
+          _textEditingController 
+          .. text = new DateFormat("dd-MM-yyyy").format(selectedDate)
+          ..selection = TextSelection.fromPosition(TextPosition(
+            offset: _textEditingController.text.length,
+            affinity: TextAffinity.upstream));
         });
-      }*/
+      }
   }
 
   @override
@@ -734,6 +746,8 @@ class _DatePickerState extends State<DatePicker> {
         width: MediaQuery.of(context).size.width * 0.9,
         child: Theme(
             child: TextField(
+              //added textfield controller
+              controller: _textEditingController,
               decoration: InputDecoration(
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
